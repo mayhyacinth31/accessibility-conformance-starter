@@ -20,6 +20,12 @@ a:focus,
 button:focus,
 input:focus {
   outline: none;
+  border: 5px solid #ffc627;
+}
+
+a:hover,
+button:hover {
+  background-color: #ffc627;
 }
 
 .site-header {
@@ -62,7 +68,7 @@ main {
   font-size: 48px;
 }
 
-.hero h3 {
+.hero h2 {
   margin: 0 0 16px;
   color: #ffc627;
 }
@@ -104,7 +110,7 @@ button {
 }
 
 .card a {
-  color: #7a7a7a;
+  color: #6b1731;
 }
 
 .animated-card {
